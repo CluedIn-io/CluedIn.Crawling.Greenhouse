@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Greenhouse.Core\Crawling.Greenhouse.Core.csproj" />
+    <ProjectReference Include="..\..\..\src\Greenhouse.Crawling\Crawling.Greenhouse.csproj" />
+    <ProjectReference Include="..\..\..\src\Greenhouse.Infrastructure\Crawling.Greenhouse.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

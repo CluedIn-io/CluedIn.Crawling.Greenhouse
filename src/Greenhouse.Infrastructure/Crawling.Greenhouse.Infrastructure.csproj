@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Greenhouse.Core\Crawling.Greenhouse.Core.csproj" />
+  </ItemGroup>
+</Project>

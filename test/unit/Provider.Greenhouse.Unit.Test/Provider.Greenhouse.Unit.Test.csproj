@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Greenhouse.Provider\Provider.Greenhouse.csproj" />
+  </ItemGroup>
+</Project>
