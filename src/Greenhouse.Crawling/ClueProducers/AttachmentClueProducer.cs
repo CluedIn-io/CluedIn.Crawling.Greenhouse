@@ -32,8 +32,6 @@ namespace CluedIn.Crawling.Greenhouse.ClueProducers
             var clue = _factory.Create(EntityType.Files.File, input.Url.ToString(), id);
             var data = clue.Data.EntityData;
 
-            //var vocab = new CandidateVocabulary();
-
             if (!string.IsNullOrEmpty(input.Filename))
             {
                 data.Name = input.Filename;

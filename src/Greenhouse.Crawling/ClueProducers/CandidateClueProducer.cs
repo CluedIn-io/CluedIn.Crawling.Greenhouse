@@ -42,11 +42,6 @@ namespace CluedIn.Crawling.Greenhouse.ClueProducers
                 data.Name = string.Format("{0}{1}", input.FirstName, input.LastName);
             }
 
-            //if (!string.IsNullOrEmpty(input.Description))
-            //{
-            //    data.Description = input.Description;
-            //}
-
             DateTimeOffset modifiedDate;
             if (DateTimeOffset.TryParse(input.UpdatedAt.ToString(), out modifiedDate))
             {
