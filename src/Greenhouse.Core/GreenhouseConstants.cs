@@ -31,14 +31,13 @@ namespace CluedIn.Crawling.Greenhouse.Core
         {
             token = new Control[]
             {
-        // You can define controls to show in the GUI in order to authenticate with this integration
-        //        new Control()
-        //        {
-        //            displayName = "API key",
-        //            isRequired = false,
-        //            name = "api",
-        //            type = "text"
-        //        }
+                new Control()
+                {
+                    displayName = "API key",
+                    isRequired = true,
+                    name = "ApiKey",
+                    type = "text"
+                }
             }
         };
 
