@@ -116,7 +116,7 @@ namespace CluedIn.Crawling.Greenhouse.ClueProducers
             data.Properties[vocab.Title] = input.Title.PrintIfAvailable();
             data.Properties[vocab.PhotoUrl] = input.PhotoUrl.PrintIfAvailable();
 
-            if (!string.IsNullOrEmpty(input.PhotoUrl.ToString()))
+            if (input.PhotoUrl != null)
             {
                 RawDataPart rawDataPart = null;
 
